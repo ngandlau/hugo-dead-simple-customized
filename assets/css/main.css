@@ -58,25 +58,24 @@ html {
 }
 
 body {
+  font-size: 14px;
+  max-width: 600px;
   margin: auto;
   padding: 0em 1em 2em 1em;
-  /* font-family: "Open Sans", sans-serif; */
-  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+  font-family: "Verdana", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
     Helvetica, Arial, sans-serif;
-  line-height: 1.54;
+  line-height: 1.25;
 }
 
 @media screen and (min-width: 760px) {
   body {
     margin: auto;
-    max-width: 68vw;
   }
 }
 
 @media screen and (min-width: 1150px) {
   body {
     margin: auto;
-    max-width: 62vw;
   }
 }
 
@@ -90,10 +89,10 @@ p {
 }
 
 h1 {
-  font-family: "Linux Libertine", "Georgia", "Times", serif;
-  font-weight: normal;
+  font-family: "Verdana", "Georgia", "Times", serif;
+  font-weight: bold;
   margin-bottom: 0px;
-  font-size: 2em;
+  font-size: 1.6em;
   margin-top: 0;
 }
 
@@ -140,9 +139,10 @@ hr {
 }
 
 blockquote {
-  border-left: 0.3rem solid var(--complimentary);
+  /* border-left: 0.3rem solid var(--complimentary); */
   font-style: oblique;
-  margin: 1.6rem 0;
+  color: #6A6A6A;
+  margin: 1rem 0;
   padding: 0 1.4rem 0 1rem;
   line-height: 1.6;
 }
