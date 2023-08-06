@@ -60,6 +60,7 @@ html {
 body {
   font-size: 14px;
   max-width: 600px;
+  text-align: justify;
   margin: auto;
   padding: 0em 1em 2em 1em;
   font-family: "Verdana", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
